@@ -1,11 +1,11 @@
-﻿@page "/OrderInformation"
+﻿@page "/OrderInformation{OrderId}"
 @using WebClient.Models
-@using WebClient.Data
-@inject HttpClient Http
+@using WebClient
 @inject NavigationManager NavigationManager
-@inject InfoService InfoService
+@inject IInfoService InfoService
 @using System.Net
 @using System.Net.Http.Json
+@using WebClient.Data
 
 <PageTitle>OrderInformation</PageTitle>
 
@@ -112,14 +112,17 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        orderItems = await InfoService.GetOrderItems();
-        infoOrder = await InfoService.AddInfoOrderAsync();
+        orderItems = await InfoService.GetOrderItems(orderItem);
+       // infoOrder = await InfoService.AddInfoOrderAsync();
         
 
     }
     // Demonstrates how a parent component can supply parameters
     [Parameter]
     public string? Summary { get; set; }
+    private long OrderId { get; set; }
+    
+    
 
 }
 }
