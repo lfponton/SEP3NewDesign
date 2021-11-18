@@ -1,4 +1,4 @@
-﻿@page "/OrderInformation{OrderId}"
+﻿@page "/OrderInformation/{OrderId:long}"
 @using WebClient.Models
 @using WebClient
 @inject NavigationManager NavigationManager
@@ -6,6 +6,9 @@
 @using System.Net
 @using System.Net.Http.Json
 @using WebClient.Data
+@inject IOrderItemsService OrderItemService
+
+
 
 <PageTitle>OrderInformation</PageTitle>
 
@@ -24,12 +27,11 @@ else
     <table class="table me-2">
         <thead>
         <tr>
-            <th>OrderItemId</th>
-            <th>OrderId</th>
-            <th>MenuId</th>
+            <th>Order Item Id</th>
+            <th>Order Id</th>
+            <th>Menu Id</th>
             <th>Quantity</th>
-            <th>Price</th>
-            <th>Total</th>
+           
         </tr>
         </thead>
         <tbody>
@@ -80,7 +82,7 @@ else
 
     <div class="alert">
         <span class="oi oi-cart me-2" aria-hidden="true"></span>
-        <strong>@Summary</strong>
+       
 
         <span class="text-nowrap">
             <a target="_blank" class="font-weight-bold link-dark" href="https://www.paypal.com/dk/home">Place Order</a>
@@ -105,24 +107,27 @@ else
         NavigationManager.NavigateTo("/infoOrder");
     }
 
-    private async void GetDeliveryAddress()
-    {
-        //DeliveryAddress 
-    }
+    
 
-    protected override async Task OnInitializedAsync()
+        protected override async Task OnInitializedAsync()
     {
-        orderItems = await InfoService.GetOrderItems(orderItem);
+        orderItems = await OrderItemService.GetOrderItems(OrderId);
        // infoOrder = await InfoService.AddInfoOrderAsync();
         
 
     }
     // Demonstrates how a parent component can supply parameters
+    
     [Parameter]
-    public string? Summary { get; set; }
-    private long OrderId { get; set; }
-    
-    
+    public long OrderId { get; set; }
+
+
+    protected override void OnParametersSet()
+    {
+
+        OrderId = OrderId;
+   
+    }
 
 }
 }
