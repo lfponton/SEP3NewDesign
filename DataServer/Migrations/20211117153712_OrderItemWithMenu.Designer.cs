@@ -13,7 +13,7 @@ namespace DataServer.Migrations
     [Migration("20211117153712_OrderItemWithMenu")]
     partial class OrderItemWithMenu
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected  void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -817,24 +817,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\agosm\\.nuget\\packages\\": {}
+    "C:\\Users\\alina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\agosm\\RiderProjects\\SEP3c\\DataServer\\DataServer.csproj",
+      "projectUniqueName": "C:\\Users\\alina\\RiderProjects\\SEP3\\SEP3\\A\\DataServer\\DataServer.csproj",
       "projectName": "DataServer",
-      "projectPath": "C:\\Users\\agosm\\RiderProjects\\SEP3c\\DataServer\\DataServer.csproj",
-      "packagesPath": "C:\\Users\\agosm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\agosm\\RiderProjects\\SEP3c\\DataServer\\obj\\",
+      "projectPath": "C:\\Users\\alina\\RiderProjects\\SEP3\\SEP3\\A\\DataServer\\DataServer.csproj",
+      "packagesPath": "C:\\Users\\alina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alina\\RiderProjects\\SEP3\\SEP3\\A\\DataServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\agosm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\alina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -883,7 +885,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
