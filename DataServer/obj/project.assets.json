@@ -817,19 +817,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alina\\.nuget\\packages\\": {}
+    "C:\\Users\\lfpon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alina\\RiderProjects\\SEP3\\SEP3\\A\\DataServer\\DataServer.csproj",
+      "projectUniqueName": "C:\\Users\\lfpon\\RiderProjects\\RestaurantApp\\DataServer\\DataServer.csproj",
       "projectName": "DataServer",
-      "projectPath": "C:\\Users\\alina\\RiderProjects\\SEP3\\SEP3\\A\\DataServer\\DataServer.csproj",
-      "packagesPath": "C:\\Users\\alina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alina\\RiderProjects\\SEP3\\SEP3\\A\\DataServer\\obj\\",
+      "projectPath": "C:\\Users\\lfpon\\RiderProjects\\RestaurantApp\\DataServer\\DataServer.csproj",
+      "packagesPath": "C:\\Users\\lfpon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lfpon\\RiderProjects\\RestaurantApp\\DataServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lfpon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -885,7 +885,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

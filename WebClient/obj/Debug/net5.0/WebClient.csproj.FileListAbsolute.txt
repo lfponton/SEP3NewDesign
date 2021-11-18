@@ -19,7 +19,6 @@ C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\WebClient.
 C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\WebClient.RazorComponent.input.cache
 C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
 C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
@@ -32,7 +31,6 @@ C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\WebClient.
 C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\WebClient.RazorCoreGenerate.cache
 C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\Razor\App.razor.g.cs
 C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
-C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
 C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
 C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
@@ -176,3 +174,7 @@ C:\Users\lfpon\RiderProjects\SEP3\WebClient\obj\Debug\net5.0\WebClient.dll
 C:\Users\lfpon\RiderProjects\SEP3\WebClient\obj\Debug\net5.0\ref\WebClient.dll
 C:\Users\lfpon\RiderProjects\SEP3\WebClient\obj\Debug\net5.0\WebClient.pdb
 C:\Users\lfpon\RiderProjects\SEP3\WebClient\obj\Debug\net5.0\WebClient.genruntimeconfig.cache
+C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\bin\Debug\net5.0\Radzen.Blazor.dll
+C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\bin\Debug\net5.0\System.Linq.Dynamic.Core.dll
+C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\RazorDeclaration\Pages\TakeAway.razor.g.cs
+C:\Users\lfpon\RiderProjects\RestaurantApp\WebClient\obj\Debug\net5.0\Razor\Pages\TakeAway.razor.g.cs

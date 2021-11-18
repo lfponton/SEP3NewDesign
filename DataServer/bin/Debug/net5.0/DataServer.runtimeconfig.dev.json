@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\agosm\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\agosm\\.nuget\\packages"
+      "C:\\Users\\lfpon\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\lfpon\\.nuget\\packages"
     ]
   }
 }
