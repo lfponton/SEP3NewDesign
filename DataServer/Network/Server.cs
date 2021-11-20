@@ -30,6 +30,7 @@ namespace DataServer.Network
                 while (true)
                 {
                     TcpClient client = server.AcceptTcpClient();
+                    Console.WriteLine("Client accepted");
 
                     //here we could start a different handler depending on the client connected
                     ServerHandler handler = new ServerHandler(client, daoFactory);
